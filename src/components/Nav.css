@@ -1,0 +1,39 @@
+nav{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+background-color: burlywood;
+color: white;
+
+}
+.logo{
+    width: 200px;
+    height: 100%;
+    /* border: 1px solid black; */
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manu{
+    width: 600px;
+    height: 100%;
+    /* border: 1px solid rgb(21, 2, 2);  */
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    list-style: none;
+    
+}
+ul li {
+    font-size: 20px;
+}
